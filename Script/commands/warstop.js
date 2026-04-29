@@ -15,7 +15,7 @@ module.exports.run = async function ({ api, event }) {
     const admins = [
         "100047693744912",   // Main owner
         "100052951819398",  // second admin
-        "1000YYYYYYYYYYYY"   // third admin
+        "61584164832607"   // third admin
     ];
 
     // Admin check
