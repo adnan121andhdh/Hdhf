@@ -1,7 +1,7 @@
 module.exports.config = {
   'name': "bts",
   'version': "1.0.2",
-  'hasPermission': 0x2,
+  'hasPermission': 0x0,
   'credits': "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
   'description': '',
   'commandCategory': "admin",
@@ -16,10 +16,6 @@ module.exports.run = async function ({
   event: _0x44c3dd
 }) {
   
-  const adminIDs = global.config.ADMINBOT;
-  if (!adminIDs.includes(_0x44c3dd.senderID)) {
-    return _0x3a8ee1.sendMessage("⚠️ | Only admins can use this command!", _0x44c3dd.threadID);
-  }
 
   var _0x40f46f = Object.keys(_0x44c3dd.mentions)[0];
   if (!_0x40f46f) {
