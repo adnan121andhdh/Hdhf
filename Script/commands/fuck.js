@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "fuck",
     version: "3.1.1",
-    hasPermssion: 2,
+    hasPermssion: 0,
     credits: "C B T",
     description: "Get fuck",
     commandCategory: "nsfw",
