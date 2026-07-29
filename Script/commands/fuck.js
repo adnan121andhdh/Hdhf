@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "CBT + Fixed",
     description: "Avatar merge canvas",
-    commandCategory: "nsfw",
+    commandCategory: "fun",
     usages: "@mention",
     cooldowns: 5,
     dependencies: {
