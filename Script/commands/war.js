@@ -102,7 +102,7 @@ module.exports.run = async function ({ api, event }) {
         "তোর মার ভোদায় আমি সামানিং জুতসু কইরা সাপ ঢুকাই দিমু",
         "তোর মার দুধের বোটা ধরে দোলনা খামু",
         " তের মার ভো*দায় সুকুনার পা ভইরা লাড়া মারমু",
-
+];
     global.warTimers[target] = setInterval(() => {
         const text = msgs[Math.floor(Math.random() * msgs.length)];
 
