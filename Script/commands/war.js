@@ -19,6 +19,7 @@ module.exports.run = async function ({ api, event }) {
         "100052951819398",  // Add more admin IDs
         "61584164832607",
         "61577409196044",
+        "61555418931752",
     ];
 
     // Admin Check
